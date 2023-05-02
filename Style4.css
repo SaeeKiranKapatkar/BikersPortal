@@ -1,0 +1,67 @@
+/*css/Style4.css*/
+
+.slider{
+    margin: 50px auto;
+    width: 50%;
+}
+
+.img-box img{
+    width:100%;
+}
+
+.btn{
+    border:none;
+    outline:none;
+    background:rgb(126, 124, 124);
+    padding:10px 30px;
+    font-size:20px;
+    color:rgb(255, 255, 255);
+    cursor:pointer;
+    margin:10px auto;
+}
+
+.btn:hover{
+    background:rgb(0, 0, 0);
+}
+
+#mySidenav a {
+    position: absolute; 
+    left: -80px; 
+    transition: 0.3s; 
+    padding: 15px; 
+    width: 100px; 
+    text-decoration: none;
+    font-size: 20px; 
+    color: white; 
+    border-radius: 0 5px 5px 0;
+  }
+  
+  #mySidenav a:hover {
+    left: 0; 
+  }
+  
+  
+  #About {
+    top: 80px;
+    background-color: #04AA6D;
+  }
+  
+  #FAQs {
+    top: 140px;
+    background-color: #2196F3; 
+  }
+  
+  #Buy {
+    top: 200px;
+    background-color:orange;
+  }
+
+  #SignUp {
+    top: 260px;
+    background-color:#f44336;
+  }
+  
+  #Contact {
+    top: 320px;
+    background-color:#555;
+  }

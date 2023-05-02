@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color:grey;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+body {
+       background-image: url('Images/11.jpg');
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size: 100% 100%;
+      }
+
+</style>
+</head>
+<body>
+
+<h2 style="text-align: center;">Buying Section</h2>
+
+<h3 style="text-align: right;">Click on this image to enroll yourself as a seller</h3>
+        <a href="https://forms.gle/XFv3tPiqKRaKV3BEA">
+            <img src="Images/United Bikers logo.jpeg"
+            alt="Logo with form"
+            align="right"
+            width="350", height="350">
+         </a>
+
+<h3 style="text-align: left;">Hover over the image to see the information.</h3>
+<div class="container">
+  <img src="Images/8.jpg" alt="Avatar" class="image" style="width:100%">
+  <div class="middle">
+    <div class="text">
+        1) John Doe
+    <br> 1234567891
+    <br> Pune
+    <br> Harley Davidson Fatboy
+    <br> 90K-100K
+    </div>
+  </div>
+</div>
+<br>
+<div class="container">
+    <img src="Images/7.jpg" alt="Avatar" class="image" style="width:100%">
+    <div class="middle">
+      <div class="text">
+          2)Sunny Singh
+      <br> 4123648971  
+      <br> Punjab
+      <br> BMW M 1000 RR
+      <br> 60K-70K
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <img src="Images/9.jpg" alt="Avatar" class="image" style="width:100%">
+    <div class="middle">
+      <div class="text">
+          3)Adventure Nation Travel Agency
+      <br> 4123648971  
+      <br> Mumbai - Shimla 
+      <br> 10th December - 20th December
+      <br> Rs.15,000
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
